@@ -1,0 +1,650 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Miranda Sem Fogo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Educação ambiental sobre o fogo no Pantanal de Miranda/MS: o bioma, o que a lei diz sobre o uso do fogo, prevenção, fumaça e saúde, jogo, atividades para a escola e a memória da Campanha Miranda Sem Fogo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&family=Poppins:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/logos/emblema-64.png">
+<link rel="apple-touch-icon" href="assets/img/logos/emblema-192.png">
+
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="topo__in">
+    <a class="topo__marca" href="#inicio" aria-label="Miranda Sem Fogo, início">
+      <img src="assets/img/logos/miranda-sem-fogo-sm.webp" alt="" width="450" height="292">
+    </a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Seções">
+      <a href="#pantanal">O Pantanal</a>
+      <a href="#fogo">Entender o fogo</a>
+      <a href="#prevenir">Prevenir</a>
+      <a href="#fumaca">Fumaça e saúde</a>
+      <a href="#escola">Na escola</a>
+      <a href="#memoria">Memória</a>
+      <a href="#outros-projetos">Outros projetos</a>
+    </nav>
+    <a class="alerta-193" href="#denuncia">Viu fogo? 193</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- INÍCIO -->
+<section id="inicio" class="hero">
+  <div class="hero__foto">
+    <img src="assets/img/fotos/brigada-prevfogo.webp" alt="Brigadistas de uniforme amarelo combatendo o fogo no meio da fumaça" width="2000" height="1500">
+  </div>
+  <canvas id="brasas" aria-hidden="true"></canvas>
+  <div class="faixa hero__in">
+    <h1><img class="hero__logo" src="assets/img/logos/miranda-sem-fogo.webp" alt="Miranda Sem Fogo. Natureza viva hoje e sempre." width="900" height="585"></h1>
+    <p class="hero__lead">A Campanha Miranda Sem Fogo continua aqui, como educação ambiental para a escola, a casa e o campo. Entenda por que o fogo se espalha na seca, o que a lei permite e proíbe, como se proteger da fumaça e o que cada um pode fazer para evitar um incêndio.</p>
+    <div class="hero__acoes">
+      <a class="botao" href="#fogo">Entender o fogo</a>
+      <a class="botao botao--linha" href="#denuncia">Canais de denúncia</a>
+    </div>
+    <dl class="hero__ficha">
+      <div><dt>Bioma</dt><dd>Pantanal</dd></div>
+      <div><dt>Período crítico</dt><dd>estiagem, de julho a outubro</dd></div>
+      <div><dt>Dia do Pantanal</dt><dd>12 de novembro</dd></div>
+      <div><dt>Emergência</dt><dd>Bombeiros, 193</dd></div>
+    </dl>
+    <p class="hero__credito">Foto: Airton Pereira Sebastião / Prevfogo-Ibama (CC BY-SA 2.0).</p>
+  </div>
+</section>
+
+<div class="lema" aria-label="Lema da campanha">
+  <p class="faixa lema__in"><span>Faça sua parte</span><span>Previna incêndios</span><span>Proteja vidas</span></p>
+</div>
+
+<!-- O PANTANAL -->
+<section id="pantanal" class="secao secao--papel">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">O Pantanal</p>
+      <h2>É nosso dever <em>conhecer, valorizar e proteger</em> o Pantanal</h2>
+      <p class="lead">O Pantanal é a maior planície alagável do mundo. A paisagem é moldada pela alternância entre períodos de cheia e de seca, nos pulsos anuais de inundação. Miranda está dentro dele, e ele faz parte da história, da identidade e do futuro do município.</p>
+    </header>
+
+    <div class="titulos">
+      <p><b>Patrimônio Nacional</b><span>Constituição Federal de 1988, art. 225, § 4º</span></p>
+      <p><b>Patrimônio Natural da Humanidade</b><span>Unesco</span></p>
+      <p><b>Reserva da Biosfera</b><span>Unesco</span></p>
+    </div>
+
+    <p class="etiqueta" style="margin-top: clamp(32px, 5vw, 48px)">Espécies identificadas no bioma</p>
+    <div class="tiragem tiragem--6">
+      <div><b>656</b><span>aves</span></div>
+      <div><b>159</b><span>mamíferos</span></div>
+      <div><b>325</b><span>peixes</span></div>
+      <div><b>98</b><span>répteis</span></div>
+      <div><b>53</b><span>anfíbios</span></div>
+      <div><b>3,5 mil</b><span>plantas</span></div>
+    </div>
+    <p class="nota">Fontes: Instituto Nacional de Pesquisa do Pantanal (INPP, 2025); Constituição Federal de 1988; Imasul (2018).</p>
+
+    <div class="folder-grade folder-grade--3" style="margin-top: clamp(36px, 5vw, 56px)">
+      <article class="face">
+        <p class="face__n">Por que importa</p>
+        <h3>Por que o Pantanal é importante para Miranda?</h3>
+        <ul>
+          <li>Identidade pantaneira</li>
+          <li>Disponibilidade de recursos hídricos</li>
+          <li>Unidades de Conservação e Terras Indígenas</li>
+          <li>Turismo e economia local</li>
+          <li>Pesquisa científica</li>
+          <li>Desenvolvimento sustentável</li>
+          <li>Qualidade de vida da população</li>
+        </ul>
+        <p class="face__chave">O Pantanal faz parte da história de Miranda.</p>
+      </article>
+      <article class="face">
+        <p class="face__n">O que existe</p>
+        <h3>O que existe no Pantanal?</h3>
+        <div class="blocos">
+          <div><b>Fauna</b><span>Espécies silvestres que encontram no Pantanal um dos principais refúgios naturais do país</span></div>
+          <div><b>Flora</b><span>Vegetação adaptada ao ciclo das águas</span></div>
+          <div><b>Recursos hídricos</b><span>Rios, corixos, baías, lagoas e áreas alagáveis</span></div>
+          <div><b>Pessoas e cultura</b><span>Comunidades tradicionais, produtores rurais, povos indígenas e pesquisadores</span></div>
+        </div>
+        <p class="face__chave">Toda essa riqueza depende de um ambiente saudável e equilibrado.</p>
+      </article>
+      <article class="face">
+        <p class="face__n">O que se perde</p>
+        <h3>O que se perde quando o fogo passa?</h3>
+        <ul>
+          <li>Biodiversidade e recursos hídricos</li>
+          <li>Produção rural sustentável e turismo</li>
+          <li>Saúde da população e qualidade do ar</li>
+          <li>Cultura pantaneira e qualidade de vida das gerações atuais e futuras</li>
+        </ul>
+        <figure class="foto-legenda">
+          <img src="assets/img/fotos/homem-pantaneiro.webp" alt="Peão a cavalo conduzindo gado branco em pasto do Pantanal" width="2000" height="1500" decoding="async">
+          <figcaption>Foto: Lcainbinder (CC BY-SA 4.0).</figcaption>
+        </figure>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TERRITÓRIO -->
+<section id="territorio" class="secao">
+  <div class="faixa territorio">
+    <div class="texto">
+      <p class="etiqueta">Onde o fogo ameaça</p>
+      <h2>Um município <em>no Pantanal</em></h2>
+      <p class="lead">Miranda abriga Unidades de Conservação e Terras Indígenas expostas ao aumento das queimadas, com destaque para as RPPNs e para as Terras Indígenas e aldeias:</p>
+      <ul class="tis">
+        <li>Lalima</li><li>Cachoeirinha</li><li>Argola</li><li>Morrinho</li><li>Babaçu</li><li>Mãe Terra</li><li>Vila São Miguel</li><li>Kaíkoê</li>
+      </ul>
+      <p>Quando o fogo chega, quem sente primeiro são os animais, as comunidades do entorno das áreas protegidas, os povos indígenas, os produtores rurais e as comunidades ribeirinhas da Bacia do Rio Miranda.</p>
+      <p class="nota">Fonte: Projeto da Campanha Miranda Sem Fogo, NOVAeng (2026).</p>
+    </div>
+    <div class="mosaico">
+      <figure>
+        <img src="assets/img/fotos/onca-piquiri.webp" alt="Onça-pintada caminhando na direção da câmera, na beira de um rio" width="2000" height="1333" decoding="async" style="object-position: 55% 50%">
+        <figcaption class="credito">Onça-pintada no rio Piquiri. Foto: Charles J. Sharp (CC BY-SA 4.0).</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/img/fotos/pantanal-aereo.webp" alt="Vista aérea de rio sinuoso entre áreas alagáveis do Pantanal" width="2000" height="1123" decoding="async">
+        <figcaption class="credito">Vista aérea do Pantanal, Poconé/MT. Foto: Flavio André / MTur (domínio público).</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ENTENDER O FOGO -->
+<section id="fogo" class="secao secao--carvao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Entender o fogo</p>
+      <h2>Incêndio <em>não é o mesmo</em> que uso do fogo</h2>
+      <p class="lead">A Política Nacional de Manejo Integrado do Fogo, de 2024, separa o fogo que ninguém controla do fogo usado com planejamento, autorização e cuidado. Conhecer a diferença ajuda a entender o que é crime, o que é permitido e o que precisa de autorização.</p>
+    </header>
+
+    <div class="defs">
+      <article class="def def--alerta">
+        <p class="def__n">Incêndio florestal</p>
+        <p>Qualquer fogo não controlado e não planejado que atinge florestas e outras formas de vegetação, nativa ou plantada, em áreas rurais, e que exige resposta, seja qual for a origem.</p>
+      </article>
+      <article class="def">
+        <p class="def__n">Queima controlada</p>
+        <p>Uso planejado, monitorado e controlado do fogo para fins agrossilvipastoris, em áreas determinadas e sob condições específicas. Depende de autorização prévia do órgão ambiental.</p>
+      </article>
+      <article class="def">
+        <p class="def__n">Queima prescrita</p>
+        <p>Uso planejado, monitorado e controlado do fogo para conservação, pesquisa ou manejo, com objetivos definidos em um plano de manejo integrado do fogo.</p>
+      </article>
+      <article class="def">
+        <p class="def__n">Uso tradicional e adaptativo</p>
+        <p>Prática ancestral de povos indígenas, quilombolas e outras comunidades tradicionais, ligada à agricultura, à caça, ao extrativismo, à cultura e à cosmovisão.</p>
+      </article>
+    </div>
+    <p class="nota">Fonte: Lei nº 14.944, de 31 de julho de 2024, art. 2º e art. 30. A lei lista as situações em que o uso do fogo na vegetação é permitido, e proíbe usar o fogo para tirar vegetação nativa e abrir área.</p>
+
+    <div class="aviso-ms">
+      <p class="aviso-ms__selo">Em 2026,<br>em MS</p>
+      <div>
+        <p><b>As queimas controladas foram suspensas em todo o estado de 1º de agosto a 30 de novembro de 2026. No Pantanal, a suspensão vai até 31 de dezembro.</b></p>
+        <p>O motivo foi o risco de incêndio na estiagem, com previsão de um El Niño de intensidade forte a muito forte.</p>
+        <small>Resolução Conjunta Semadesc/Imasul nº 9/2026 (CAMPO GRANDE NEWS, 31/07/2026).</small>
+      </div>
+    </div>
+
+    <h3 class="sub">Por que o fogo se espalha</h3>
+    <p class="lead" style="margin-bottom: 24px">O clima favorece a propagação. Mas o fogo também pode começar com as nossas atitudes.</p>
+    <div class="causas causas--2">
+      <article class="causa">
+        <h3>O clima</h3>
+        <p>pode favorecer a propagação dos incêndios:</p>
+        <ul class="icones">
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><circle cx="15" cy="15" r="4.5" fill="none" stroke="#0c0907" stroke-width="2"/><path d="M15 5v3M15 22v3M5 15h3M22 15h3M8 8l2 2M20 20l2 2M8 22l2-2M20 10l2-2" stroke="#0c0907" stroke-width="2" stroke-linecap="round"/></svg>Seca e vegetação ressecada</li>
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><path d="M7 12h12a3 3 0 1 0-3-3M7 17h15a3 3 0 1 1-3 3" fill="none" stroke="#0c0907" stroke-width="2" stroke-linecap="round"/></svg>Ventos intensos</li>
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><path d="M15 7c-3 5-5 8-5 11a5 5 0 0 0 10 0c0-3-2-6-5-11z" fill="#0c0907"/></svg>Baixa umidade do ar</li>
+        </ul>
+        <p>Nessas condições, o risco é ainda maior.</p>
+      </article>
+      <article class="causa">
+        <h3>As atitudes</h3>
+        <p>também podem começar o fogo:</p>
+        <ul class="icones">
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><rect x="7" y="13.5" width="13" height="4" fill="#0c0907"/><rect x="20" y="13.5" width="3" height="4" fill="#ef5a28"/></svg>Bitucas jogadas na vegetação</li>
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><path d="M10 11h10l-1 11H11z M9 9h12" fill="#0c0907" stroke="#0c0907" stroke-width="2" stroke-linejoin="round"/></svg>Queima de lixo, folhas e galhos</li>
+          <li><svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="14" fill="#f7941d"/><path d="M15 6c1 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 3-6 1 2 2 3 3 3-1-3-1-5 0-8z" fill="#0c0907"/></svg>Fogo próximo à vegetação</li>
+        </ul>
+        <p>Um descuido pode causar um grande incêndio.</p>
+      </article>
+    </div>
+
+    <h3 class="sub">2026 em números</h3>
+    <p class="lead" style="margin-bottom: 24px">Os informativos de incêndios florestais de Mato Grosso do Sul acompanharam a estiagem de 2026 no Pantanal sul-mato-grossense, sempre em comparação com o mesmo período de 2025.</p>
+    <div class="salto">
+      <div class="barras leituras" id="barras" role="img" aria-label="Área queimada no Pantanal de MS em 2026, comparada com o mesmo período de 2025. Até 15 de julho: 58.878 hectares contra 6.762, alta de 770,7%. Até 4 de agosto: alta de 663,4%, sem hectares divulgados. Até 17 de agosto: 80.449 hectares contra 18.096, alta de 344,6%.">
+        <article class="leitura">
+          <div class="leitura__cab"><p class="leitura__data">1º de janeiro a 15 de julho</p><p class="leitura__pct">+770,7%</p></div>
+          <div class="barra"><span class="barra__ano">2025</span><span class="barra__trilho" style="--p: 8.41%"><span class="barra__fill"></span><span class="barra__val">6.762 ha</span></span></div>
+          <div class="barra barra--2026"><span class="barra__ano">2026</span><span class="barra__trilho" style="--p: 73.19%"><span class="barra__fill"></span><span class="barra__val">58.878 ha</span></span></div>
+          <p class="leitura__fonte">Informativo estadual elaborado pelo Cemtec e pelo Corpo de Bombeiros (A CRÍTICA, 17/07/2026).</p>
+        </article>
+        <article class="leitura">
+          <div class="leitura__cab"><p class="leitura__data">1º de janeiro a 4 de agosto</p><p class="leitura__pct">+663,4%</p></div>
+          <p class="leitura__vazio">Este informativo divulgou só o percentual, sem o total de hectares.</p>
+          <p class="leitura__fonte">2º Informativo sobre Incêndios Florestais em MS, com dados do Corpo de Bombeiros Militar (RCN 67, 06/08/2026).</p>
+        </article>
+        <article class="leitura">
+          <div class="leitura__cab"><p class="leitura__data">1º de janeiro a 17 de agosto</p><p class="leitura__pct">+344,6%</p></div>
+          <div class="barra"><span class="barra__ano">2025</span><span class="barra__trilho" style="--p: 22.49%"><span class="barra__fill"></span><span class="barra__val">18.096 ha</span></span></div>
+          <div class="barra barra--2026 barra--dentro"><span class="barra__ano">2026</span><span class="barra__trilho" style="--p: 100%"><span class="barra__fill"></span><span class="barra__val">80.449 ha</span></span></div>
+          <p class="leitura__fonte">Informativo nº 03 do Cicoe e do Plano Estadual de Manejo Integrado do Fogo, com dados do Imasul. Eventos de fogo: 81 em 2025 e 113 em 2026, alta de 39,5% (CAMPO GRANDE NEWS, 2026).</p>
+        </article>
+        <div class="escala" aria-hidden="true"><span>0</span><span>40,2 mil ha</span><span>80,4 mil ha</span></div>
+      </div>
+      <div class="leituras__lado">
+        <figure class="foto-legenda">
+          <img src="assets/img/fotos/cinzas-pantanal.webp" alt="Mãos recolhendo cinzas do chão queimado" width="2000" height="1500" decoding="async">
+          <figcaption>Cinzas de incêndio florestal no Pantanal. Foto: Marcella Montenegro (CC BY-SA 4.0).</figcaption>
+        </figure>
+        <div class="contexto">
+          <p><b>A área queimada não parou de subir.</b> O percentual cai de uma edição para a outra porque a área de 2025 usada na comparação também cresce.</p>
+          <p><b>Cada hectare conta.</b> Por trás de cada percentual há fauna, flora e água que o fogo levou.</p>
+        </div>
+      </div>
+    </div>
+    <p class="nota">Fontes: A CRÍTICA (17/07/2026); RCN 67 (06/08/2026); CAMPO GRANDE NEWS (2026), que citam os informativos estaduais de incêndios florestais.</p>
+  </div>
+</section>
+
+<!-- PREVENIR -->
+<section id="prevenir" class="secao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Prevenir</p>
+      <h2>Pequenas atitudes <em>evitam grandes perdas</em></h2>
+      <p class="lead">A maior parte dos incêndios começa com um descuido. Por isso a prevenção começa em casa, no quintal, na estrada e na conversa com os vizinhos.</p>
+    </header>
+    <div class="duas">
+      <article class="face face--escura">
+        <p class="face__n">O que fazer</p>
+        <h3>O que você pode fazer?</h3>
+        <ul>
+          <li>Não descarte bitucas de cigarro em áreas de vegetação.</li>
+          <li>Não realize queimadas irregulares, como a queima de lixo doméstico.</li>
+          <li>Utilize o fogo apenas quando autorizado e com os cuidados necessários.</li>
+          <li>Ao identificar um foco de incêndio, avise imediatamente os órgãos competentes.</li>
+        </ul>
+        <p class="face__chave" style="color: var(--brasa)">Pequenas atitudes podem evitar grandes perdas.</p>
+      </article>
+    <div class="lei">
+      <p class="lei__selo">Queimar lixo<br>é proibido</p>
+      <div>
+        <p>Em Miranda, a queima de lixo, folhas, galhos e outros resíduos vegetais é proibida em todo o município. Na cidade e no campo, a lei deve ser respeitada.</p>
+        <small>Lei Complementar Municipal nº 110/2021, art. 14, § 2º, III, conforme a arte da campanha. Na lei federal, a Política Nacional de Resíduos Sólidos proíbe a queima de resíduos a céu aberto ou em recipientes, instalações e equipamentos não licenciados (Lei nº 12.305/2010, art. 47, III).</small>
+      </div>
+    </div>
+    </div>
+
+    <h3 class="sub">Enquanto…</h3>
+    <p class="lead" style="margin-bottom: 18px">Uma cena comum e o que o fogo causa ao mesmo tempo. Toque em cada frase para ver o final.</p>
+    <ul class="frases" id="frases">
+      <li class="frase"><button type="button" aria-expanded="false"><span class="frase__a"><b>Enquanto</b> você reclama da fumaça…</span><span class="frase__dica">ver o final</span><span class="frase__b">eles fogem para sobreviver.</span></button></li>
+      <li class="frase"><button type="button" aria-expanded="false"><span class="frase__a"><b>Enquanto</b> você reclama da fumaça…</span><span class="frase__dica">ver o final</span><span class="frase__b">comunidades indígenas podem estar protegendo suas casas, seu território e sua história.</span></button></li>
+      <li class="frase"><button type="button" aria-expanded="false"><span class="frase__a"><b>Enquanto</b> o fogo avança…</span><span class="frase__dica">ver o final</span><span class="frase__b">espécies da fauna, da flora e da funga podem desaparecer.</span></button></li>
+      <li class="frase"><button type="button" aria-expanded="false"><span class="frase__a"><b>Enquanto</b> um descuido dura segundos…</span><span class="frase__dica">ver o final</span><span class="frase__b">a recuperação do Pantanal pode levar décadas.</span></button></li>
+      <li class="frase"><button type="button" aria-expanded="false"><span class="frase__a"><b>Enquanto</b> muitos esperam que alguém resolva…</span><span class="frase__dica">ver o final</span><span class="frase__b">a prevenção começa com cada um de nós.</span></button></li>
+    </ul>
+  </div>
+</section>
+
+<!-- FUMAÇA E SAÚDE -->
+<section id="fumaca" class="secao secao--carvao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Fumaça e saúde</p>
+      <h2>Quando a fumaça <em>chega na cidade</em></h2>
+      <p class="lead">A fumaça das queimadas faz mal para a saúde, mesmo longe do fogo. Crianças, idosos e pessoas com doenças respiratórias ou do coração são as mais vulneráveis.</p>
+    </header>
+    <ol class="cuidados">
+      <li><b>Beba mais água</b><span>Ajuda a manter as vias respiratórias hidratadas.</span></li>
+      <li><b>Evite exercícios ao ar livre</b><span>Principalmente quando a fumaça piora a qualidade do ar.</span></li>
+      <li><b>Umidifique a casa</b><span>Bacias de água ou toalhas molhadas ajudam a reduzir a secura do ar.</span></li>
+      <li><b>Feche portas e janelas</b><span>Nos horários de mais fumaça, prefira ficar em ambientes fechados.</span></li>
+      <li><b>Procure atendimento</b><span>Se tiver falta de ar, tosse que não passa ou irritação nos olhos, no nariz e na garganta. Para os grupos mais vulneráveis, já nos primeiros sintomas.</span></li>
+    </ol>
+    <p class="nota">Fonte: Ministério da Saúde, “Cinco cuidados essenciais com a saúde durante o período de queimadas”, 19/09/2024.</p>
+  </div>
+</section>
+
+<!-- JOGO -->
+<section id="jogo" class="secao secao--carvao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Jogo</p>
+      <h2>Um Dia de Estiagem</h2>
+      <p class="lead">Julho a outubro em Miranda. Sete situações do dia a dia, sete decisões. Cada escolha errada acende um foco na paisagem. Cada escolha certa mantém o Pantanal vivo.</p>
+    </header>
+
+    <div class="jogo" id="jogo-caixa">
+      <div class="jogo__hud">
+        <div><small>Situação</small><b id="hud-cena">0 de 7</b></div>
+        <div><small>Decisões certas</small><b id="hud-certas">0</b></div>
+        <div><small>Paisagem queimada</small><b id="hud-queimada">0%</b></div>
+        <div><small>Mês</small><b id="hud-mes">Julho</b></div>
+      </div>
+      <div class="jogo__palco">
+        <canvas id="paisagem" aria-hidden="true"></canvas>
+        <p class="jogo__mes" id="palco-mes">Julho</p>
+        <div class="palco__msg" id="palco-msg" role="status" hidden></div>
+      </div>
+      <div class="jogo__painel" id="painel" aria-live="polite">
+        <p class="jogo__cena">A estiagem começou. O capim está seco, o vento sopra forte e o ar está cada vez mais seco. Você vai passar por sete situações que acontecem em Miranda nessa época. <b>Escolha o que fazer em cada uma.</b></p>
+        <div class="jogo__acoes"><button type="button" class="botao" id="comecar">Começar</button></div>
+      </div>
+    </div>
+    <div class="jogo__sobre">
+      <p>As situações, as respostas e as explicações vêm dos materiais da campanha. Os números de denúncia são os mesmos do folder e do spot.</p>
+      <p class="nota">Fontes: Campanha Miranda Sem Fogo, NOVAeng (2026); Lei Complementar Municipal nº 110/2021, art. 14, § 2º, III, conforme a arte da campanha; Lei nº 12.305/2010, art. 47, III.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NA ESCOLA -->
+<section id="escola" class="secao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Na escola</p>
+      <h2>Para levar <em>para a sala de aula</em></h2>
+      <p class="lead">Sugestões de atividades com o conteúdo deste site. O professor escolhe a que combina com a turma e adapta ao tempo da aula.</p>
+    </header>
+    <div class="atividades">
+      <article class="atividade">
+        <p class="atividade__n">Atividade 1 · escrita</p>
+        <h3>O nosso “Enquanto…”</h3>
+        <ol>
+          <li>Ler com a turma as frases da seção Prevenir.</li>
+          <li>Cada estudante escreve uma frase nova, com uma cena do dia a dia em Miranda.</li>
+          <li>A turma escolhe as frases para um mural.</li>
+        </ol>
+      </article>
+      <article class="atividade">
+        <p class="atividade__n">Atividade 2 · jogo e debate</p>
+        <h3>Um Dia de Estiagem em grupo</h3>
+        <ol>
+          <li>Jogar em grupos, cada grupo decidindo junto.</li>
+          <li>Comparar os resultados e as ocorrências do auto de infração.</li>
+          <li>Conversar: quais atitudes aparecem na nossa rua?</li>
+        </ol>
+      </article>
+      <article class="atividade">
+        <p class="atividade__n">Atividade 3 · áudio</p>
+        <h3>O spot da turma</h3>
+        <ol>
+          <li>Ouvir o spot de rádio da campanha, na seção Memória.</li>
+          <li>Escrever um texto de até 30 segundos com uma orientação e os números de denúncia.</li>
+          <li>Gravar com o celular e apresentar para a escola.</li>
+        </ol>
+      </article>
+      <article class="atividade">
+        <p class="atividade__n">Atividade 4 · observação</p>
+        <h3>Onde o fogo pode começar?</h3>
+        <ol>
+          <li>Andar pelo entorno da escola e anotar terrenos com lixo, folhas e capim seco.</li>
+          <li>Marcar os pontos num desenho do bairro.</li>
+          <li>Propor o que fazer em cada ponto, sem usar fogo.</li>
+        </ol>
+      </article>
+    </div>
+    <p class="nota">Para fotografar estudantes, a escola precisa do termo de autorização de uso de imagem assinado pelos responsáveis. Os trabalhos das turmas podem entrar na seção Memória.</p>
+  </div>
+</section>
+
+<!-- DENÚNCIA -->
+<section id="denuncia" class="secao denuncia">
+  <div class="denuncia__foto" aria-hidden="true"></div>
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Canais de denúncia</p>
+      <h2>Viu fogo? <em>Aja rápido.</em></h2>
+      <p class="lead">Ao identificar um foco de incêndio ou uma queimada irregular, acione imediatamente:</p>
+    </header>
+    <ul class="contatos" id="contatos">
+      <li class="contato contato--193"><p class="contato__quem">Corpo de Bombeiros<small>Foco de incêndio</small></p><p class="contato__num">193</p><button type="button" class="copiar" data-num="193">Copiar</button></li>
+      <li class="contato"><p class="contato__quem">Polícia Militar<small>Aciona a Polícia Militar Ambiental</small></p><p class="contato__num">190</p><button type="button" class="copiar" data-num="190">Copiar</button></li>
+      <li class="contato"><p class="contato__quem">Defesa Civil Estadual<small>WhatsApp</small></p><p class="contato__num">(67) 99607-1525</p><button type="button" class="copiar" data-num="(67) 99607-1525">Copiar</button></li>
+      <li class="contato"><p class="contato__quem">Disque Denúncia Estadual</p><p class="contato__num">181</p><button type="button" class="copiar" data-num="181">Copiar</button></li>
+      <li class="contato"><p class="contato__quem">Prefeitura de Miranda</p><p class="contato__num">(67) 3242-1508</p><button type="button" class="copiar" data-num="(67) 3242-1508">Copiar</button></li>
+    </ul>
+    <p class="nota">Fonte: folder, cartaz, carrosséis e spot da campanha.</p>
+    <div class="redes-grupo">
+      <p class="redes-grupo__t">Acompanhe a SEMARH nas redes sociais</p>
+      <div class="redes-grupo__links">
+        <a class="redes" href="https://www.instagram.com/semarh_miranda/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg>
+          <span class="redes__txt"><small>Instagram</small><b>@semarh_miranda</b></span>
+          <span class="redes__seta" aria-hidden="true">›</span>
+        </a>
+        <a class="redes" href="https://www.facebook.com/p/Semarh-Miranda-61572252818950/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M13.2 20v-6.6h2.2l.4-2.6h-2.6V9.2c0-.8.3-1.3 1.4-1.3h1.3V5.6c-.3 0-1.1-.1-2-.1-2 0-3.3 1.2-3.3 3.4v1.9H8.4v2.6h2.2V20" fill="currentColor"/></svg>
+          <span class="redes__txt"><small>Facebook</small><b>Semarh Miranda</b></span>
+          <span class="redes__seta" aria-hidden="true">›</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MEMÓRIA -->
+<section id="memoria" class="secao secao--carvao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Memória</p>
+      <h2>A Campanha <em>Miranda Sem Fogo</em></h2>
+      <p class="lead">A campanha de 2026 deu origem a este site. Aqui ficam guardados os materiais que ela levou às redes sociais, ao rádio, às escolas e aos órgãos públicos, como referência para as próximas edições.</p>
+    </header>
+
+    <ol class="linha-tempo">
+        <li class="marco marco--feito"><time datetime="2026-08-13">13 de agosto de 2026</time><h3>Projeto da campanha</h3><p>Projeto técnico concluído e encaminhado à Prefeitura de Miranda, com os três materiais, o público, as metas e o orçamento.</p></li>
+        <li class="marco marco--feito"><time datetime="2026-10-15">15 de outubro de 2026</time><h3>Roteiro de publicação e resumo de execução</h3><p>Datas das redes sociais, quantidades de impressão, inserções do spot e lista dos registros que comprovam a execução.</p></li>
+        <li class="marco"><time datetime="2026-10-16">16 de outubro de 2026</time><h3>Carrossel “Enquanto…”</h3><p>Publicação no feed do Instagram e no Facebook da Prefeitura. Republicação nos stories em 21 e 28 de outubro.</p></li>
+        <li class="marco"><time datetime="2026-10-19">19 a 31 de outubro de 2026</time><h3>Spot no rádio</h3><p>15 inserções de 34 segundos, em duas semanas.</p></li>
+        <li class="marco"><time datetime="2026-10">Outubro de 2026</time><h3>Impressos</h3><p>300 folders e 6 cartazes A3 para escolas, Prefeitura, SEMARH e Sindicato Rural de Miranda.</p></li>
+        <li class="marco"><time datetime="2027">De 2027 em diante</time><h3>Ciclo completo</h3><p>Planejamento e aprovação até junho, para a campanha cobrir toda a estiagem, de julho a outubro.</p></li>
+      </ol>
+
+    <h3 class="sub">Artes para as redes sociais</h3>
+    <div class="carrossel" id="carrossel-enquanto" aria-label="Carrossel Enquanto, seis faces"></div>
+    <div class="carrossel" id="carrossel-causas" aria-label="Carrossel O fogo destrói, seis faces" style="margin-top: 18px"></div>
+    <p class="nota">Créditos das fotos em cada face. Carrossel “O fogo destrói”: fotos do Canva.</p>
+
+    <h3 class="sub" id="spot">Spot de rádio</h3>
+    <div class="radio radio--so">
+      <div class="player">
+        <div class="player__linha">
+          <button type="button" class="player__play" id="play" aria-label="Tocar o spot">
+            <svg viewBox="0 0 24 24" aria-hidden="true" id="ico-play"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true" id="ico-pausa" hidden><path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/></svg>
+          </button>
+          <canvas id="onda" aria-label="Forma de onda do spot. Clique para avançar ou voltar."></canvas>
+        </div>
+        <div class="player__tempo"><span id="t-atual">0:00</span><span id="t-total">0:34</span></div>
+        <audio id="audio" preload="metadata" src="assets/audio/spot-miranda-sem-fogo.mp3"></audio>
+        <div class="transcricao" id="transcricao" aria-label="Texto do spot">
+          <p><span>Um pequeno descuido pode provocar um grande incêndio.</span> <span>Bitucas de cigarro, queimas mal controladas e descartes irregulares colocam o Pantanal em perigo.</span> <span>Faça sua parte. Previna incêndios. Proteja vidas.</span></p>
+          <p><span>Ao identificar um foco de incêndio ou uma queimada irregular, denuncie!</span> <span>Corpo de Bombeiros: ligue 193. Disque Denúncia Estadual: 181.</span> <span>Ou entre em contato com a Prefeitura de Miranda, pelo telefone: 67 3242-1508.</span> <span>Campanha Miranda Sem Fogo.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="sub">Folder e cartaz</h3>
+    <div class="pecas" id="pecas">
+      <figure>
+        <button type="button" data-lupa="pecas" data-i="0" aria-label="Ampliar: folder, lado externo"><img src="assets/img/pecas/folder-externo.webp" alt="Folder tríptico Miranda Sem Fogo, lado externo" width="1755" height="1241" decoding="async"></button>
+        <figcaption>Folder tríptico, lado externo</figcaption>
+      </figure>
+      <figure>
+        <button type="button" data-lupa="pecas" data-i="1" aria-label="Ampliar: folder, lado interno"><img src="assets/img/pecas/folder-interno.webp" alt="Folder tríptico Miranda Sem Fogo, lado interno" width="1755" height="1241" decoding="async"></button>
+        <figcaption>Folder tríptico, lado interno</figcaption>
+      </figure>
+      <figure>
+        <button type="button" data-lupa="pecas" data-i="2" aria-label="Ampliar: cartaz A3"><img src="assets/img/pecas/cartaz-a3.webp" alt="Cartaz A3 Miranda Sem Fogo" width="1300" height="1838" decoding="async"></button>
+        <figcaption>Cartaz A3</figcaption>
+      </figure>
+    </div>
+
+    <h3 class="sub">Registros</h3>
+    <div class="registros">
+      <div class="registro">
+        <div class="espera" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <h3>Cartazes fixados</h3>
+        <p>Fotos dos cartazes no mural da Prefeitura, na SEMARH, no Sindicato Rural de Miranda e em escola da rede pública.</p>
+      </div>
+      <div class="registro">
+        <div class="espera" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <h3>Folders nas mãos</h3>
+        <p>Entrega em escola e em evento, e folders para retirada na Prefeitura, no Sindicato Rural e na SEMARH.</p>
+      </div>
+      <div class="registro">
+        <div class="espera" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <h3>Resultados</h3>
+        <p>O alcance da campanha e as recomendações para 2027, depois do relatório de resultados.</p>
+      </div>
+    </div>
+
+    <h3 class="sub">Ficha técnica da campanha</h3>
+    <div class="ficha-tec">
+      <details open>
+        <summary>Objetivo geral</summary>
+        <p>Divulgar informações sobre os impactos das queimadas, as práticas alternativas de manejo e os canais de denúncia, sensibilizando a população de Miranda/MS sobre a importância da prevenção de incêndios para a proteção das Unidades de Conservação, das Terras Indígenas e da biodiversidade do Pantanal.</p>
+      </details>
+      <details>
+        <summary>Objetivo específico</summary>
+        <p>Realizar veiculações em rádio e/ou carro de som, divulgação digital nas redes sociais e distribuição de pôsteres, outdoors, faixas e folders, com execução em 2026 concentrada entre setembro e outubro e, a partir de 2027, de forma anual e cíclica entre julho e outubro, para reduzir as queimadas por causas evitáveis na estiagem.</p>
+      </details>
+      <details>
+        <summary>Mobilização e articulação</summary>
+        <ul>
+          <li>Reunião de articulação com o Corpo de Bombeiros Militar de MS.</li>
+          <li>Contato com as emissoras de rádio locais e com o responsável pelo carro de som municipal, para a grade de veiculação.</li>
+          <li>Alinhamento entre as Secretarias de Meio Ambiente, Educação e Comunicação, para distribuir os materiais e acompanhar a campanha.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Resultados esperados</summary>
+        <div class="tabela"><table>
+          <thead><tr><th>Atividade ou canal</th><th>Previsto</th><th>Pessoas alcançadas (estimativa)</th></tr></thead>
+          <tbody>
+            <tr><td>Cartazes A3</td><td>300 unidades em espaços públicos, escolas e órgãos parceiros</td><td>≈ 3.000</td></tr>
+            <tr><td>Folder “Nosso Pantanal”</td><td>3.000 unidades nas escolas da rede municipal e em eventos</td><td>≈ 3.000</td></tr>
+            <tr><td>Spot de rádio</td><td>60 inserções em emissoras locais, na estiagem</td><td>até 26.512 (população do município, IBGE 2025)</td></tr>
+            <tr><td>Carro de som</td><td>10 diárias nas zonas urbana e rural</td><td>≈ 5.000</td></tr>
+            <tr><td>Redes sociais</td><td>Posts e stories da Prefeitura e dos órgãos parceiros</td><td>depende do alcance das contas oficiais</td></tr>
+            <tr><td>Órgãos parceiros</td><td>Corpo de Bombeiros, Polícia Militar Ambiental, Defesa Civil, IMASUL (Linha Verde), Sindicato Rural de Miranda e Onçafari (RPPN Dona Aracy)</td><td>≈ 3.000</td></tr>
+          </tbody>
+          <tfoot><tr><td>Total</td><td>População urbana e rural, produtores, estudantes e comunidades do entorno das UCs e TIs</td><td>≈ 20.000 (estimativa média)</td></tr></tfoot>
+        </table></div>
+        <p>Os valores são estimativas de alcance de cada canal, com possível sobreposição: a mesma pessoa pode receber o folder, ver o cartaz e ouvir o spot.</p>
+      </details>
+      <details>
+        <summary>Área de abrangência e duração</summary>
+        <p>Município de Miranda/MS, com enfoque nas áreas urbanas, nas Unidades de Conservação e nas Terras Indígenas. Ação temporária e cíclica, ligada ao período crítico de estiagem, de julho a outubro. A partir de 2027, a campanha deve ser planejada e aprovada até junho.</p>
+      </details>
+      <details>
+        <summary>Equipe técnica</summary>
+        <p>Elaboração: NOVAeng Engenharia Ltda. Coordenação executiva: Eng. Amb. Caroline Alves Gil da Costa. Responsabilidade técnica: Eng. Amb. Diego Lanza Lima.</p>
+      </details>
+    </div>
+    <p class="nota">Fonte: NOVAeng (2026), Campanha “Miranda Sem Fogo”: Prevenção a Queimadas e Proteção das UCs e TIs.</p>
+  </div>
+</section>
+
+<!-- OUTROS PROJETOS -->
+<section id="outros-projetos" class="secao">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Educação ambiental em Miranda</p>
+      <h2>Outros projetos</h2>
+      <p class="lead">A Miranda Sem Fogo faz parte do conjunto de ações de educação ambiental do município. Cada ação vai ganhar o seu próprio site, que será ligado aqui.</p>
+    </header>
+    <ul class="projetos" id="projetos"></ul>
+    <p class="nota">Fonte: fichas técnicas das ações de educação ambiental de Miranda/MS, NOVAeng (2026).</p>
+  </div>
+</section>
+
+<!-- REALIZAÇÃO -->
+<section id="realizacao" class="secao secao--brasa">
+  <div class="faixa">
+    <header class="cab">
+      <p class="etiqueta">Quem faz</p>
+      <h2>Realização e apoio</h2>
+    </header>
+    <div class="realizacao">
+      <img class="logo-larga" src="assets/img/logos/prefeitura-campanha.webp" alt="Prefeitura de Miranda" width="679" height="177">
+      <img class="logo-larga" src="assets/img/logos/novaeng-campanha.webp" alt="NOVAeng Engenharia" width="714" height="164">
+      <img class="logo-redonda" src="assets/img/logos/comdema-campanha.webp" alt="COMDEMA, Conselho Municipal de Meio Ambiente de Miranda" width="320" height="320">
+      <img class="logo-redonda" src="assets/img/logos/semarh-campanha.webp" alt="SEMARH, Secretaria Municipal do Meio Ambiente e Recursos Hídricos de Miranda" width="296" height="320">
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="faixa">
+    <div class="rodape__grade">
+      <div>
+        <h3>Miranda Sem Fogo</h3>
+        <p>Educação ambiental sobre o fogo no Pantanal de Miranda/MS, nascida da Campanha Miranda Sem Fogo, Ação 03 do primeiro ciclo de ações de educação ambiental do município. Natureza viva hoje e sempre.</p>
+        <h3 style="margin-top:24px">Referências</h3>
+        <ul class="refs">
+          <li>NOVAENG. Campanha “Miranda Sem Fogo”: prevenção a queimadas e proteção das UCs e TIs. Campo Grande, 2026.</li>
+          <li>NOVAENG. Roteiro de publicação e Resumo de execução da campanha “Miranda Sem Fogo”. Campo Grande, 2026.</li>
+          <li>A CRÍTICA. Área queimada no Pantanal cresce 770%. Campo Grande, 17 jul. 2026. <a href="https://acritica.net/meio-ambiente/area-queimada-pantanal-cresce-770/" target="_blank" rel="noopener">acritica.net</a></li>
+          <li>RCN 67. Área queimada no Pantanal sobe quase 700% e MS entra em alerta para fogo até outubro. Campo Grande, 6 ago. 2026. <a href="https://www.rcn67.com.br/campo-grande/area-queimada-no-pantanal-quase-700-e-ms-entra-em-alerta-para-fogo-ate-outubro" target="_blank" rel="noopener">rcn67.com.br</a></li>
+          <li>CAMPO GRANDE NEWS. Área queimada em MS neste ano já equivale a quase o tamanho de Belém. Campo Grande, ago. 2026. <a href="https://www.campograndenews.com.br/meio-ambiente/area-queimada-em-ms-neste-ano-ja-equivale-a-quase-o-tamanho-de-belem" target="_blank" rel="noopener">campograndenews.com.br</a></li>
+          <li>BRASIL. Constituição da República Federativa do Brasil de 1988, art. 225, § 4º. <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" target="_blank" rel="noopener">planalto.gov.br</a></li>
+          <li>BRASIL. Lei nº 14.944, de 31 de julho de 2024. Institui a Política Nacional de Manejo Integrado do Fogo. <a href="https://www2.camara.leg.br/legin/fed/lei/2024/lei-14944-31-julho-2024-796016-publicacaooriginal-172511-pl.html" target="_blank" rel="noopener">camara.leg.br</a></li>
+          <li>INPP. Sobre o Pantanal: maior planície alagável e patrimônio natural da humanidade, 2025. <a href="https://www.gov.br/inpp/pt-br/o-pantanal/pantanal-maior-planicie-alagavel-e-patrimonio-natural-da-humanidade" target="_blank" rel="noopener">gov.br/inpp</a></li>
+          <li>IMASUL. Hoje é o Dia do Pantanal, Patrimônio da Humanidade e Reserva da Biosfera, 12 nov. 2018. <a href="https://www.imasul.ms.gov.br/hoje-e-o-dia-do-pantanal-patrimonio-da-humanidade-e-reserva-da-biosfera/" target="_blank" rel="noopener">imasul.ms.gov.br</a></li>
+          <li>CAMPO GRANDE NEWS. MS suspende queimas controladas até novembro e amplia restrição no Pantanal, 31 jul. 2026. <a href="https://www.campograndenews.com.br/meio-ambiente/ms-suspende-queimas-controladas-ate-novembro-e-amplia-restricao-no-pantanal" target="_blank" rel="noopener">campograndenews.com.br</a></li>
+          <li>MINISTÉRIO DA SAÚDE. Cinco cuidados essenciais com a saúde durante o período de queimadas, 19 set. 2024. <a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2024/setembro/atencao-cinco-cuidados-essenciais-com-a-saude-durante-o-periodo-de-queimadas" target="_blank" rel="noopener">gov.br/saude</a></li>
+          <li>BRASIL. Lei nº 12.305, de 2 de agosto de 2010. Institui a Política Nacional de Resíduos Sólidos. <a href="https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12305.htm" target="_blank" rel="noopener">planalto.gov.br</a></li>
+          <li>MIRANDA. Lei Complementar Municipal nº 110/2021.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Créditos das imagens</h3>
+        <ul class="creditos">
+          <li>Cinzas: Marcella Montenegro, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Cinzas_dos_Inc%C3%AAndios_Florestal_no_Pantanal.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>Peão e gado: Lcainbinder, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Homem_Pantaneiro.jpg" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>Onça-pintada: Charles J. Sharp, CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Jaguar_(Panthera_onca_palustris)_female_Piquiri_River_2.JPG" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>Vista aérea: Flavio André / MTur, domínio público. <a href="https://commons.wikimedia.org/wiki/File:Flavio_Andre_Pantanal_Vista_aerea_Pocone_MT_(40958332021).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>Topo, brigada: Airton Pereira Sebastião / Prevfogo-Ibama, CC BY-SA 2.0. <a href="https://commons.wikimedia.org/wiki/File:3%C2%BA_Lugar_-_Ibama_em_A%C3%A7%C3%A3o_(53488586208).jpg" target="_blank" rel="noopener">Wikimedia Commons</a></li>
+          <li>Carrossel “Enquanto…”: créditos em cada face, conforme o roteiro de publicação.</li>
+          <li>Carrossel “O fogo destrói”: fotos do Canva.</li>
+          <li>Licenças: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" target="_blank" rel="noopener">CC BY-SA 4.0</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.pt-br" target="_blank" rel="noopener">CC BY-SA 2.0</a> · <a href="https://creativecommons.org/licenses/by/2.0/deed.pt-br" target="_blank" rel="noopener">CC BY 2.0</a>. Imagens redimensionadas para a web.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="rodape__redes">Redes sociais da SEMARH: <a href="https://www.instagram.com/semarh_miranda/" target="_blank" rel="noopener">Instagram @semarh_miranda</a> · <a href="https://www.facebook.com/p/Semarh-Miranda-61572252818950/" target="_blank" rel="noopener">Facebook Semarh Miranda</a></p>
+    <p class="rodape__fim">Prefeitura de Miranda/MS · SEMARH · COMDEMA · Assessoria técnica NOVAeng Engenharia · 2026</p>
+  </div>
+</footer>
+
+<dialog class="lupa" id="lupa" aria-label="Imagem ampliada">
+  <figure>
+    <img id="lupa-img" src="" alt="">
+    <figcaption id="lupa-leg"></figcaption>
+  </figure>
+  <div class="lupa__barra">
+    <button type="button" id="lupa-ant">‹ Anterior</button>
+    <button type="button" id="lupa-fechar">Fechar</button>
+    <button type="button" id="lupa-prox">Próxima ›</button>
+  </div>
+</dialog>
+
+<script src="assets/js/projetos.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/jogo.js"></script>
+
+</body></html>
